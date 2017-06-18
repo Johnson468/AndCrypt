@@ -1,0 +1,10 @@
+<resources>
+    <string name="passRequirements">Enter a password (used to make an encryption key) At least 8 characters long</string>
+    <string name="createpass">Create Login</string>
+    <string name="enterpass">Enter Password</string>
+    <string name="submit">Submit</string>
+    <string name="app_name">AndCrypt</string>
+    <string name="title_activity_create_id">CreateID</string>
+    <string name="alertDialog">You are two tries away from closing the application</string>
+    <string name="ok">Ok</string>
+</resources>

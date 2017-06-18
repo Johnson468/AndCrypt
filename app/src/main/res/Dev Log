@@ -1,0 +1,35 @@
+Todo:
+Make a working AES encryption for encrypting files locally
+Make Java server to hold all the Keys
+Implement RSA for encryption in transit over the server
+
+
+
+12/5:
+Added password hashing function for security using SHA256
+12/6:
+Removed username field, assuming 1 user per device.
+Added tests to the unit test file
+Cleaned up the code in makeId and MainActivity to make it more readable, added more functions
+12/7:
+Added AES.java for encryption
+Simplified file writing in makeId
+Did other things but it's 1:30AM and I can't remember them now
+12/8:
+Fixed login validation
+Working to add an alert when a password is entered more than 3 times
+12/9:
+Fixed the number of login attempt alert
+Added a dark theme
+12/10:
+Added an activity to select images
+Added a way to select images
+Created an encryption/Decryption function but they don't seem to work
+12/13:
+After taking a short break to study for finals, will begin researching how to encrypt an image
+
+3/26/17:
+A tad bit of a longer break than expected.
+Rewrote the hashing function for the password because the other one wasn't working correctly
+Working on Restaurant Decider ATM, but will continue to learn about encrypting image files
+Removed hardcoded text/replaced with strings.xml values
