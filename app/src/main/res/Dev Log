@@ -1,5 +1,4 @@
 Todo:
-Make a working AES encryption for encrypting files locally
 Make Java server to hold all the Keys
 Implement RSA for encryption in transit over the server
 
