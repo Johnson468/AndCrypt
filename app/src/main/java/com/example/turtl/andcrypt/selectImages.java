@@ -90,8 +90,7 @@ public class selectImages extends AppCompatActivity {
                 setupFile(imagePath);
                 //Put the image into the image view
                 iv.setImageURI(selectedImageUri);
-                fileContents = getFile();
-
+                //fileContents = getFile();
             }
         }
     }
@@ -197,6 +196,7 @@ public class selectImages extends AppCompatActivity {
             showAlert("Error", "An error has occured");
             return;
         }
+        fileContents = getFile();
         Cipher cipher;
         byte[] encrypted = null;
         try {
@@ -217,6 +217,7 @@ public class selectImages extends AppCompatActivity {
             showAlert("Error", "An error has occured");
             return;
         }
+        fileContents = getFile();
         Cipher cipher;
         byte[] decrypted = null;
         try {
